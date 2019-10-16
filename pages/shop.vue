@@ -7,7 +7,7 @@
       <nuxt-link to="/shop/tools">工具</nuxt-link>
       <nuxt-link to="/shop/books">杂志</nuxt-link>
       <nuxt-link to="/shop">猜您喜欢/精品推荐</nuxt-link>
-      <Nuxt />
+      <nuxt-child />
       <nuxt-link to="/">返回首页</nuxt-link>
     </div>
 </template>

@@ -23,14 +23,13 @@ module.exports = {
   ** Global CSS
   */
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    'element-ui/lib/theme-chalk/index.css',
+    "./assets/font/iconfont.css",
   ],
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-    '@/plugins/element-ui'
-  ],
+  plugins: [{ src: "./assets/font/iconfont.js", ssr: false }],
   /*
   ** Nuxt.js dev-modules
   */
